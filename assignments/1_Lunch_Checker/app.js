@@ -19,12 +19,11 @@
             } else if (items.length <= 3) {
                 $scope.message = "Enjoy!";
             } else {
-                message = "Too Much!";
+                $scope.message = "Too Much!";
             }
         }
 
         $scope.getMessageStyle = function() {
-            console.log("test: " + messageColor);
             return {color: messageColor};
         }
     }
