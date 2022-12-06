@@ -4,3 +4,5 @@
 [submodule "external/angular-seed"]
 	path = external/angular-seed
 	url = https://github.com/angular/angular-seed.git
+[submodule "external/restaurant-menu-server"]
+	path = external/restaurant-menu-server

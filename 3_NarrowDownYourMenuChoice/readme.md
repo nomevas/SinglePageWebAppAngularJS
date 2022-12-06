@@ -1,4 +1,14 @@
-# General Idea
+Module 2 "Check off" shoping list application
+=======
+## Module Topics
+
+- Split services/controllers in seprate files
+- Unit test service/controllers
+- run unit tests using karma
+- integrate karma with vscode: https://blog.mlewandowski.com/Debugging-Karma-tests-with-VSCode.html 
+
+
+## General Idea about application
 You are going to be building a much simplified search of the menu item descriptions using the restaurant server REST API we used in Lecture 25, Part 2.
 
 The idea here is for the user to search the descriptions of menu items. Then, given the list of matches of his search, give the user the ability to throw the items they for sure don't want off the list, thus narrowing it down to what they do want.

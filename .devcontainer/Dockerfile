@@ -6,6 +6,9 @@ FROM mcr.microsoft.com/vscode/devcontainers/base:0-alpine-${VARIANT}
 
 # ** [Optional] Uncomment this section to install additional packages. **
 RUN apk update \
-     && apk add --update nodejs npm
+     && apk add --update nodejs npm \
+     && apk add ruby 
 
 RUN npm install -g browser-sync
+
+RUN gem install bundler

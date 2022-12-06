@@ -1,4 +1,4 @@
-Module 2 Coding Assignment
+Module 2 "Check off" shoping list application
 =======
 ## Module Topics
 

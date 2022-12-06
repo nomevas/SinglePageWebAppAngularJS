@@ -23,6 +23,7 @@ Projects:
     - setup project using angular-seed
     - split logic in multiple packages/files
     - unit testing
+    - E2E testing https://docs.angularjs.org/guide/e2e-testing
     - promises using $q service
     - $http service
     - Custom directives
